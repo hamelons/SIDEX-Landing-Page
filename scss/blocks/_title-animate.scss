@@ -1,0 +1,17 @@
+@keyframes animate {
+    0% {
+        text-shadow: 3px 3px 0px purple;
+    }
+    25% {
+        text-shadow: -3px -3px 0px  #174f78;
+    }
+    25% {
+        text-shadow: 3px 3px 0px purple;
+    }
+    25% {
+        text-shadow: -3px -3px 0px #174f78;
+    }
+    30% {
+        text-shadow: 3px 3px 0px purple;
+    }
+}

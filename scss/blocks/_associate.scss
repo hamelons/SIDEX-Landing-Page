@@ -1,0 +1,31 @@
+.planet {
+    padding-top: 230px;
+    height: 100vh;
+    background: url('/src/img/bg_3_section.jpg') no-repeat center top / cover;
+}
+
+.associate {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    &__title {
+        font-size: 30px;
+        color: var(--white);
+        letter-spacing: 0.8px;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+
+        animation: animate 5s infinite;
+        animation-timing-function: linear;
+        &__col {
+            color: var(--main);
+        }
+    }
+    &__descr {
+        margin: 0 auto;
+        font-size: 20px;
+        width: 580px;
+        margin-bottom: 35px;
+        color: var(--white);
+    }
+}
