@@ -1,0 +1,10 @@
+.scroll__top {
+    position: fixed;
+    bottom: 120px;
+    right: 32px;
+    opacity: 0;
+    transition: all 0.5s;
+    &.active {
+        opacity: 1;
+    }
+}

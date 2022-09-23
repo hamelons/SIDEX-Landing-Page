@@ -1,0 +1,19 @@
+.home__descr__btn {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: var(--main);
+    color: var(--white);
+    padding: 14px 32px;
+    transition: all  0.5s;
+    &__link {
+        text-transform: uppercase;
+        font-size: 15px;
+        color: var(--white);
+    }
+}
+.home__descr__btn:hover {
+    border: 1.5px solid var(--white);
+    transition: all 0.5s;
+    border-radius: 15px;
+    background: none;
+}

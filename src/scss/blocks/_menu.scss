@@ -1,0 +1,103 @@
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    span {
+        display: block;
+        width: 30px;
+        height: 2px;
+        background: var(--white);
+    }
+    span.longline {
+        width: 36px;
+    }
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100;
+    height: 100vh;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.6s;
+    &.active {
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+    &__block {
+        position: relative;
+        padding-top: 140px;
+        padding-left: 50px;
+        width: 345px;
+        height: 100%;
+        background-color: var(--dark_blue);
+        transition: all 0.6s;
+        z-index: 10;
+        
+    }
+    &__close {
+        cursor: pointer;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    &__li {
+        margin-bottom: 25px;
+    }
+    &__link {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-family: 'Russo One', sans-serif;
+        color: var(--white);
+    }
+    .active {
+        color: var(--main);
+    }
+    &__contacts {
+        position: absolute;
+        bottom: 90px;
+    }
+    &__social__link {
+        font-size: 1.2em;
+        color: var(--white);
+        transition: all  0.5s;
+        margin-right: 15px;
+        &:hover {
+            transition: all  0.5s;
+            color: var(--main);
+        }
+    }
+    &__address {
+        margin-top: 30px;
+        &__icn {
+            align-items:center;
+            display: flex;
+            padding-top: 10px;
+        }
+        &__loc, p{
+            font-size: 14px;
+            color: var(--white);
+            padding-left: 12px;
+        }
+    }
+    &__overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.81);
+        opacity: 0.75;
+    }
+}

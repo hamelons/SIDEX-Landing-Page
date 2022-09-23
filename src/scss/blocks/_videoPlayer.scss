@@ -1,0 +1,13 @@
+.video {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url('/src/img/bg_section_5-6.jpg') no-repeat center top / cover;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 460px;
+        background-color: var(--blvck);
+        border-radius: 15px;
+    }
+}
