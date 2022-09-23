@@ -506,7 +506,7 @@ hr {
 .planet {
   padding-top: 230px;
   height: 100vh;
-  background: url("img/bg_3_section.jpg") no-repeat center top/cover;
+  background: url("/img/bg_3_section.jpg") no-repeat center top/cover;
 }
 
 .associate {
@@ -561,7 +561,7 @@ hr {
 .video {
   padding-top: 150px;
   padding-bottom: 150px;
-  background: url("/src/img/bg_section_5-6.jpg") no-repeat center top/cover;
+  background: url("/img/bg_section_5-6.jpg") no-repeat center top/cover;
 }
 .video__wrapper {
   display: -webkit-box;
@@ -579,7 +579,7 @@ hr {
 .contacts {
   padding-top: 150px;
   height: 100vh;
-  background: url("/src/img/bg_section_5-6.jpg") no-repeat center top/cover;
+  background: url("/img/bg_section_5-6.jpg") no-repeat center top/cover;
 }
 .contacts__title {
   margin: auto;
