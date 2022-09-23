@@ -506,7 +506,7 @@ hr {
 .planet {
   padding-top: 230px;
   height: 100vh;
-  background: url("/src/img/bg_3_section.jpg") no-repeat center top/cover;
+  background: url("img/bg_3_section.jpg") no-repeat center top/cover;
 }
 
 .associate {
