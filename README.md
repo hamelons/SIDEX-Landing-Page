@@ -13,4 +13,4 @@ ____
 ![JavaScript](https://img.shields.io/badge/-JavaScript-090909?style=for-the-badge&logo=JavaScript)
 
 :mag_right: [SIDEX](https://hamelons.github.io/SIDEX-Landing-Page/)
-!(img/form.jpg)
+!(/img/form.jpg)
